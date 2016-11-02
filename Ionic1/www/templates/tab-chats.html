@@ -1,0 +1,19 @@
+<ion-view view-title="我的卡">
+  <ion-content>
+     <ion-scroll zooming="true" direction="xy" style="width: 100%; height: 100%">
+    <div style="width: 100%; height: 100%">
+      <div class="list card" ng-repeat="chat in chats">
+        <a class="item" href="#/tab/chats/{{chat.id}}">
+        <div class="item">
+          <h2>Pretty Hate Machine</h2>
+          <p>Nine Inch Nails</p>
+        </div>
+        <div class="item item-image">
+          <img src="img/01.jpg">
+        </div>
+       </a>
+      </div>
+    </div>
+   </ion-scroll>
+  </ion-content>
+</ion-view>
